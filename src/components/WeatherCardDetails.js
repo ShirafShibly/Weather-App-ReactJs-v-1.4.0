@@ -40,7 +40,7 @@ const WeatherCardDetails = () => {
 
   return (
     <div className="row">
-      <div class="col-md-6 offset-md-3">
+      <div className="col-md-6 offset-md-3">
         <div className="card-container-details">
           <div className={`card-header-d card-header ${randomColorClass}`}>
             <img
