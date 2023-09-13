@@ -22,7 +22,7 @@ const WeatherCard = ({ city, randomColorClass }) => {
     >
       <div className={`card-h card-header ${randomColorClass}`}>
         <div className="card-city">
-          <h3>{city.name}</h3>
+          <h3>{city.name}, {city.sys.country}</h3>
           <p>{currentDate}</p>
 
           <div className="card-weather">
