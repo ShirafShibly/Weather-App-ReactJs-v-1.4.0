@@ -54,7 +54,7 @@ const WeatherCardDetails = () => {
             />
 
             <div className="card-city-details">
-              <h2>{city.name}</h2>
+              <h2>{city.name}, {city.sys.country}</h2>
               <p>{new Date(city.dt * 1000).toLocaleString()}</p>
 
               <div className="climate-details">
